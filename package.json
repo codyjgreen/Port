@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://codyjgreen.github.io/Port/",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "gh-pages": "^2.0.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "scripts": {
+    "start1": "react-scripts start",
+    "build1": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+  }
+}
